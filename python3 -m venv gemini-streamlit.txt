@@ -1,0 +1,13 @@
+python3 -m venv gemini-streamlit
+source gemini-streamli/bin/activate
+pip install -r requirement.txt 
+
+
+Streamlit run chef.py/
+--browser.serverAddress=localhost/
+--server.enableCORS=flase/
+--server.enableXsrProtection=false
+--server.port 8080
+
+google-cloud-aiplatform
+google-cloud-aiplatform
